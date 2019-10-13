@@ -1,16 +1,17 @@
 ﻿spring:
   profiles:
     active:
-	- dev
+      - dev
 ---
 spring:
-  profiles: dev   #开发环境
+  profiles: dev                   #开发环境
   application:
-    name: microservicecloud-config-znq-dev
+    name: microservice-config-dev
+    
 ---
 spring:
-  profiles: dev   #测试环境
+  profiles: test                  #测试环境
   application:
-    name: microservicecloud-config-znq-test
-# 请保存为UTF-8格式
+    name: microservice-config-test
+
 	
